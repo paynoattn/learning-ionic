@@ -1,0 +1,25 @@
+/* Empty. Add your own CSS if you like */
+
+
+.star>.item-content {
+	background: #eee8d6;
+}
+
+#welcome {
+	background: url(../img/skyline.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: #333;
+	padding: 5%;
+}
+
+.masthead img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.splash {
+	width: 80%;
+	margin: 50px auto;
+}
