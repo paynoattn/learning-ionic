@@ -25,7 +25,5 @@ angular.module('starter').controller('listController', ['$scope', '$http', '$sta
       $scope.artists.splice(fromIndex, 1);
       $scope.artists.splice(toIndex, 0, artist);
     };
-  }).error(function(error){
-    alert(data);
-  });
+  })
 }])

@@ -51,6 +51,15 @@ angular.module('starter', ['ionic'])
       }
     }
   })
+  .state('tabs.calendar', {
+    url: '/calendar',
+    views: {
+      'calendar-tab': {
+        templateUrl: 'view/calendar.html',
+        controller: 'calendarController as calendar',
+      }
+    }
+  })
   $urlRouterProvider.otherwise('/tab/home');
 })
 

@@ -22,9 +22,12 @@
     <script src="app.js"></script>
     <script src="controller/listCtrl.js"></script>
     <script src="controller/welcomeCtrl.js"></script>
+    <script src="controller/calenderCtrl.js"></script>
   </head>
   <body ng-app="starter">
-      
+      <ion-nav-bar class="bar-positive" ng-hide="isHome">
+        <ion-nav-back-button></ion-nav-back-button>
+      </ion-nav-bar>
       <ion-nav-view></ion-nav-view>
   </body>
 </html>
